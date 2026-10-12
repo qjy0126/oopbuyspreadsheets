@@ -1,0 +1,6 @@
+# Keep Cloudflare deploys under the asset limit
+kakobuysheetlink/img/products
+kakobuysheetlink/item
+*.xlsx
+.git
+.gitignore

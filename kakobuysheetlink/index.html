@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+  (function () {
+    var p = location.pathname || "/";
+    var m = p.match(/^\/kakobuysheetlink(?=\/|$)/);
+    if (!m) return;
+    if (p === "/kakobuysheetlink") {
+      location.replace("/kakobuysheetlink/" + location.search + location.hash);
+      return;
+    }
+  })();
+  </script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kakobuy Sheet Link – Curated Kakobuy Spreadsheet Finds | Taobao &amp; Weidian</title>
+  <meta name="description" content="Kakobuy Sheet Link: a Finds Spreadsheet-style catalog of Kakobuy sheet links. Browse shoes, hoodies, and more with QC photos, then buy on Kakobuy." />
+  <meta name="keywords" content="Kakobuy Sheet Link, Kakobuy Spreadsheet, finds spreadsheet, Kakobuy, Weidian, Taobao, 1688, sheet links, QC finds" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="canonical" href="https://kakobuysheetlink.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Kakobuy Sheet Link" />
+  <meta property="og:title" content="Kakobuy Sheet Link – Curated Kakobuy Spreadsheet Finds" />
+  <meta property="og:description" content="Browse Kakobuy spreadsheet finds as product cards. Preview QC, then open Kakobuy to checkout." />
+  <meta property="og:url" content="https://kakobuysheetlink.com/" />
+  <meta property="og:image" content="https://kakobuysheetlink.com/img/logo.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="img/favicon.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Montserrat:wght@700;800&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css?v=sheetlink8" />
+  <script src="js/analytics.js"></script>
+</head>
+<body data-page="home">
+  <main>
+    <section class="home-hero">
+      <div class="wrap">
+        <h1>kakobuy <span>spreadsheet</span></h1>
+        <p class="tagline" data-i18n="hero_tagline">The best Kakobuy spreadsheet</p>
+        <p class="lede" data-i18n="hero_lede">Sheet links as a shoppable grid — shoes, streetwear, and QC finds. Preview here, checkout on Kakobuy.</p>
+        <div class="hero-actions">
+          <a class="btn btn-solid" href="finds/" data-i18n="view_spreadsheet">View Spreadsheet</a>
+          <a class="btn btn-ink" href="https://ikako.vip/r/9v88f" target="_blank" rel="noopener" data-i18n="open_kakobuy">Open Kakobuy</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:8px">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2 data-i18n="explore_categories">Explore Our Categories</h2>
+            <p data-i18n="explore_lede">Jump into a lane — same idea as Finds Spreadsheet, built for Kakobuy.</p>
+          </div>
+        </div>
+        <div class="pill-row" id="pill-row"></div>
+        <div class="cat-grid" id="cat-grid"></div>
+      </div>
+    </section>
+
+    <div class="cat-band">
+      <div class="wrap"><p class="band-title" data-i18n="latest_finds">Latest Finds</p></div>
+    </div>
+
+    <section class="section" style="padding-top:0">
+      <div class="wrap">
+        <div class="pill-row" id="latest-pills"></div>
+        <div class="product-grid" id="latest-grid"></div>
+        <div class="hero-actions" style="margin-top:22px">
+          <a class="btn btn-solid" href="finds/" data-i18n="view_all">View All</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="why-block">
+          <h2>Why choose kakobuysheetlink.com</h2>
+          <p>Kakobuy Sheet Link turns messy spreadsheet rows into a clean product grid. Browse Taobao, Weidian, and 1688 finds with photos and prices, then open the live listing on Kakobuy. Built like a finds spreadsheet — focused on Kakobuy sheet links, QC-ready shopping, and mobile browsing.</p>
+          <div class="faq-list" id="faq-list"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="js/data.js?v=sheetlink9"></script>
+  <script src="js/catalog.js?v=sheetlink4"></script>
+  <script src="js/i18n.js?v=sheetlink8"></script>
+  <script src="js/ui.js?v=sheetlink8"></script>
+  <script src="js/pages.js?v=sheetlink8"></script>
+</body>
+</html>

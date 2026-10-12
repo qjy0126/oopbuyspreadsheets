@@ -1,0 +1,11 @@
+.DS_Store
+*.xlsx
+node_modules/
+.wrangler/
+dist/
+
+# Large local product thumbs — site falls back to CDN
+kakobuysheetlink/img/products/
+
+# Unused per-item static dumps from upstream
+kakobuysheetlink/item/

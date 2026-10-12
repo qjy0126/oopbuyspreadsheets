@@ -1,0 +1,14 @@
+.git
+**/.git/**
+.gitignore
+.assetsignore
+wrangler.toml
+scripts
+*.xlsx
+.~*
+*.py
+*.pyc
+__pycache__
+README.md
+img/products
+img/products/**

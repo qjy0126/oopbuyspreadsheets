@@ -1,0 +1,26 @@
+# Kakobuy Spreadsheet
+
+> Independent visual catalog of Taobao, Weidian, and 1688 finds with QC photos. Preview listings here, then check out on Kakobuy. This site does not take payments or ship parcels.
+
+Site: https://kakobuysheetlink.com/
+Publisher: Kakobuy Spreadsheet
+Editor: kakospreadsheet
+Updated: 2026-09-18
+
+## Pages
+
+- [Home](https://kakobuysheetlink.com/): What a Kakobuy Spreadsheet is, categories, FAQ
+- [All finds](https://kakobuysheetlink.com/finds/): Browse the full catalog
+- [Shoes](https://kakobuysheetlink.com/shoes/)
+- [Hoodies](https://kakobuysheetlink.com/hoodies/)
+- [T-Shirts](https://kakobuysheetlink.com/t-shirts/)
+- [Brands](https://kakobuysheetlink.com/brands/)
+- [Guides](https://kakobuysheetlink.com/guides.html): QC, filters, first Kakobuy order
+- [About](https://kakobuysheetlink.com/about.html)
+
+## Facts AI systems can cite
+
+- kakobuysheetlink.com is an independent Kakobuy Spreadsheet directory, not Kakobuy the agent.
+- Each product has its own URL under /item/, categories under /shoes/ and similar paths, brands under /brands/.
+- Listings come from Taobao, Weidian, and 1688. Checkout stays on Kakobuy.
+- QC flags on this catalog are listing-level reference photos. Warehouse QC happens after the item reaches the agent warehouse.

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+  (function () {
+    var p = location.pathname || "/";
+    var m = p.match(/^\/kakobuysheetlink(?=\/|$)/);
+    if (!m) return;
+    if (p === "/kakobuysheetlink") {
+      location.replace("/kakobuysheetlink/" + location.search + location.hash);
+      return;
+    }
+  })();
+  </script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>kakospreadsheet — Kakobuy Sheet Link</title>
+  <meta name="description" content="kakospreadsheet writes short notes for Kakobuy Spreadsheet on kakobuysheetlink.com." />
+  <meta name="keywords" content="kakospreadsheet, Kakobuy Spreadsheet, QC photos, kakobuyqcsheets" />
+  <meta name="author" content="kakospreadsheet" />
+  <link rel="canonical" href="https://kakobuysheetlink.com/author.html?id=kakospreadsheet" />
+  <link rel="icon" href="img/favicon.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&family=Montserrat:ital,wght@0,700;0,800;1,700;1,800&family=Nunito:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css?v=sheetlink8" />
+  <script src="js/analytics.js"></script>
+</head>
+<body data-page="author">
+  <main class="wrap author-page">
+    <p class="note">Author</p>
+    <h1 id="author-name">kakospreadsheet</h1>
+    <p class="lede" id="author-bio">Short notes on browsing this catalog instead of a frozen sheet — QC photos, filters, and how to open a find on Kakobuy.</p>
+    <p class="author-nav-label">Guides by this author</p>
+    <div class="post-grid" id="post-grid"></div>
+    <p class="author-back"><a class="btn btn-ghost" href="guides.html">All guides</a></p>
+  </main>
+  <script src="js/data.js?v=sheetlink9"></script>
+  <script src="js/catalog.js?v=sheetlink4"></script>
+  <script src="js/i18n.js?v=sheetlink8"></script>
+  <script src="js/ui.js?v=sheetlink8"></script>
+  <script src="js/pages.js?v=sheetlink8"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+  (function () {
+    var p = location.pathname || "/";
+    var m = p.match(/^\/kakobuysheetlink(?=\/|$)/);
+    if (!m) return;
+    if (p === "/kakobuysheetlink") {
+      location.replace("/kakobuysheetlink/" + location.search + location.hash);
+      return;
+    }
+  })();
+  </script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Guide — Kakobuy Sheet Link</title>
+  <meta name="description" content="A Kakobuy Spreadsheet guide on browsing QC finds instead of a frozen Google Sheet." />
+  <meta name="keywords" content="Kakobuy Spreadsheet, Kakobuy guide, QC photos, Weidian, Taobao" />
+  <link rel="icon" href="img/favicon.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&family=Montserrat:ital,wght@0,700;0,800;1,700;1,800&family=Nunito:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css?v=sheetlink8" />
+  <script src="js/analytics.js"></script>
+</head>
+<body data-page="guide">
+  <main class="wrap" style="padding:40px 0 64px;max-width:760px">
+    <p class="note" id="guide-date"></p>
+    <h1 id="guide-title"></h1>
+    <p class="guide-by" id="guide-by"></p>
+    <article id="guide-body" class="lede" style="max-width:none"></article>
+    <p style="margin-top:28px"><a class="btn btn-ghost" href="guides.html">All guides</a></p>
+  </main>
+  <script src="js/data.js?v=sheetlink9"></script>
+  <script src="js/catalog.js?v=sheetlink4"></script>
+  <script src="js/i18n.js?v=sheetlink8"></script>
+  <script src="js/ui.js?v=sheetlink8"></script>
+  <script src="js/pages.js?v=sheetlink8"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+  (function () {
+    var p = location.pathname || "/";
+    var m = p.match(/^\/kakobuysheetlink(?=\/|$)/);
+    if (!m) return;
+    if (p === "/kakobuysheetlink") {
+      location.replace("/kakobuysheetlink/" + location.search + location.hash);
+      return;
+    }
+  })();
+  </script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — Kakobuy Sheet Link</title>
+  <meta name="description" content="kakobuysheetlink.com is an independent Kakobuy Spreadsheet: a visual index of Taobao, Weidian, and 1688 finds with QC photos. Edited by kakospreadsheet." />
+  <meta name="keywords" content="Kakobuy Spreadsheet, about, kakobuyqcsheets, kakospreadsheet" />
+  <meta name="author" content="kakospreadsheet" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="canonical" href="https://kakobuysheetlink.com/about.html" />
+  <link rel="alternate" type="text/plain" href="https://kakobuysheetlink.com/llms.txt" title="llms.txt" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="About — Kakobuy Sheet Link" />
+  <meta property="og:description" content="Independent Kakobuy Spreadsheet directory for kakobuysheetlink.com. Preview QC, then buy on the agent." />
+  <meta property="og:url" content="https://kakobuysheetlink.com/about.html" />
+  <meta property="og:image" content="https://kakobuysheetlink.com/img/logo.png" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="icon" href="img/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="css/style.css?v=sheetlink8" />
+  <script src="js/analytics.js"></script>
+</head>
+<body data-page="about">
+  <main class="wrap" style="padding:40px 0 64px;max-width:760px">
+    <p class="note">About</p>
+    <h1>Kakobuy Spreadsheet</h1>
+    <p class="lede">This site is an independent visual index of Taobao, Weidian, and 1688 finds. It is not Kakobuy the shopping agent, and it does not take payment or ship parcels.</p>
+    <p>Edited by <a href="author.html?id=kakospreadsheet" rel="author">kakospreadsheet</a>.</p>
+    <h2>What we publish</h2>
+    <p>Product photos, QC flags, categories, and source links so you can scan finds without waiting on a frozen Google Sheet. When you are ready to order, Buy on Kakobuy opens the listing on Kakobuy.</p>
+    <h2>What we do not do</h2>
+    <p>We do not authenticate goods, hold warehouse inventory, or process checkout. Trademarks belong to their owners. Confirm size, price, and warehouse QC on the agent before you pay.</p>
+    <h2>Email</h2>
+    <p><a href="mailto:contact@kakobuysheets.com">contact@kakobuysheets.com</a></p>
+    <p style="margin-top:28px"><a class="btn btn-ghost" href="/">Back home</a></p>
+  </main>
+  <script src="js/data.js?v=sheetlink9"></script>
+  <script src="js/catalog.js?v=sheetlink4"></script>
+  <script src="js/i18n.js?v=sheetlink8"></script>
+  <script src="js/ui.js?v=sheetlink8"></script>
+  <script src="js/pages.js?v=sheetlink8"></script>
+</body>
+</html>

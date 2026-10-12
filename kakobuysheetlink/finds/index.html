@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+  (function () {
+    var p = location.pathname || "/";
+    var m = p.match(/^\/kakobuysheetlink(?=\/|$)/);
+    if (!m) return;
+    if (p === "/kakobuysheetlink") {
+      location.replace("/kakobuysheetlink/" + location.search + location.hash);
+      return;
+    }
+  })();
+  </script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>All finds — Kakobuy Sheet Link</title>
+  <meta name="description" content="Browse Kakobuy Sheet Link finds with USD prices, QC flags and direct Kakobuy links." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="canonical" href="https://kakobuysheetlink.com/finds/" />
+  <link rel="icon" href="../img/favicon.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Montserrat:wght@700;800&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css?v=sheetlink8" />
+  <script src="../js/analytics.js"></script>
+</head>
+<body data-page="shop">
+  <div class="cat-band"><div class="wrap"><p class="band-title" id="cat-band-title">All Finds</p></div></div>
+  <main class="wrap catalog">
+    <div class="pill-row" id="shop-pills"></div>
+    <div class="catalog-top shop-toolbar">
+      <p id="shop-count">Loading…</p>
+      <select id="sort">
+        <option value="latest">Default sorting</option>
+        <option value="popular">Sort by popularity</option>
+        <option value="rating">Sort by average rating</option>
+        <option value="price-asc">Sort by price: low to high</option>
+        <option value="price-desc">Sort by price: high to low</option>
+      </select>
+    </div>
+    <div class="product-grid" id="product-grid"></div>
+    <div class="pager" id="pager" style="display:flex;gap:8px;flex-wrap:wrap;margin:22px 0;justify-content:center"></div>
+  </main>
+  <script src="../js/data.js?v=sheetlink9"></script>
+  <script src="../js/catalog.js?v=sheetlink4"></script>
+  <script src="../js/i18n.js?v=sheetlink8"></script>
+  <script src="../js/ui.js?v=sheetlink8"></script>
+  <script src="../js/pages.js?v=sheetlink8"></script>
+</body>
+</html>

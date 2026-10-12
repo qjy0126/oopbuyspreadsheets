@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dead Links Report | OopBuySpreadsheets</title>
+    <meta
+      name="description"
+      content="Report broken OopBuy spreadsheet links on oopbuyspreadsheets.me."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="bg-glow" aria-hidden="true"></div>
+    <div class="bg-grid" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="/">
+        <img class="brand-logo" src="/oopbuy-logo.png" alt="Oopbuy" width="124" height="36" />
+        <span class="brand-text">spreadsheet</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="/" data-i18n="nav_home">Home</a>
+        <a href="/spreadsheet.html" data-i18n="nav_spreadsheet">Spreadsheet</a>
+        <a href="/dead-links.html" class="active" data-i18n="nav_dead">Dead Links</a>
+      </nav>
+      <div class="header-actions">
+        <div data-locale-slot></div>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle theme">
+          <span data-theme-icon>🌙</span>
+          <span data-theme-label data-i18n="theme_dark">Dark</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow">Keep the sheet clean</p>
+        <h1>Dead links</h1>
+        <p>
+          Seller links expire. Help keep OopBuySpreadsheets accurate by flagging broken product
+          URLs.
+        </p>
+      </section>
+
+      <section class="simple-panel">
+        <h2>Report a broken link</h2>
+        <form class="track-form" data-dead-form>
+          <label class="sr-only" for="dead-url">Broken URL</label>
+          <input id="dead-url" name="url" type="url" placeholder="https://…" required />
+          <label class="sr-only" for="dead-note">Note</label>
+          <input id="dead-note" name="note" type="text" placeholder="Optional note (404, sold out…)" />
+          <button class="btn btn-primary" type="submit">Submit report</button>
+        </form>
+        <div class="track-result" data-dead-result hidden></div>
+      </section>
+
+      <section class="simple-panel">
+        <h2>What happens next</h2>
+        <ul>
+          <li>We review the report and remove or replace dead spreadsheet rows.</li>
+          <li>Popular finds get refreshed first when replacements are available.</li>
+          <li>Always verify the live listing before you order.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <strong>OopBuySpreadsheets</strong>
+        <p>Independent haul research hub for oopbuyspreadsheets.me</p>
+      </div>
+      <div class="footer-links">
+        <a href="/spreadsheet.html">Spreadsheet</a>
+        <a href="/dead-links.html">Dead Links</a>
+      </div>
+      <p class="footer-copy">© <span data-year></span> OopBuySpreadsheets.</p>
+    </footer>
+
+    <script type="module">
+      import "/app.js";
+
+      const form = document.querySelector("[data-dead-form]");
+      const result = document.querySelector("[data-dead-result]");
+      form?.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const data = new FormData(form);
+        const url = String(data.get("url") || "").trim();
+        if (!result || !url) return;
+        form.reset();
+        result.hidden = false;
+        result.innerHTML = `<strong>Thanks.</strong><p>We logged a report for <code>${url}</code>. Wire this form to your backend when ready.</p>`;
+      });
+    </script>
+  </body>
+</html>
