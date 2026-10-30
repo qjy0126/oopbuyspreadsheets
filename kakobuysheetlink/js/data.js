@@ -159,7 +159,7 @@ KF.cny = (n) => `¥${Math.round(Number(n) * 7.2)}`;
 KF.priceLabel = (n) => `${KF.cny(n)} = ${KF.money(n)}`;
 KF.invite = {
   kakobuy: "9v88f",
-  oopbuy: "R28A1X6T7",
+  oopbuy: "1W4CISK9G",
   mulebuy: "201207480",
   acbuy: "XQFW6M",
   hipobuy: "Y0WGBFNCB",

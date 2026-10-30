@@ -30,8 +30,8 @@ export const FALLBACK_PRODUCTS = [];
 
 export const IMG_CDN = "https://cdn.jsdelivr.net/gh/qjy0126/kakobuysheetlink@main/";
 export const IMG_LOCAL = "/kakobuysheetlink/";
-export const OOPBUY_INVITE = "R28A1X6T7";
-export const OOPBUY_REGISTER = `https://oopbuy.com/?inviteCode=${OOPBUY_INVITE}`;
+export const OOPBUY_INVITE = "1W4CISK9G";
+export const OOPBUY_REGISTER = `https://oopbuy.com/register?inviteCode=${OOPBUY_INVITE}`;
 
 export function productImage(path, { prefer = "local" } = {}) {
   const s = String(path || "");

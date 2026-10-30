@@ -26,7 +26,7 @@ Real catalog comes from `kakobuysheetlink/`:
 - `kakobuysheetlink/js/data.js` — categories, invite codes, OopBuy link builder
 - `kakobuysheetlink/js/catalog.js` — ~4,800 products
 - Images: jsDelivr CDN (`cdn.jsdelivr.net/gh/qjy0126/kakobuysheetlink@main/`)
-- Buy links open OopBuy with invite code `R28A1X6T7`
+- Buy links open OopBuy with invite code `1W4CISK9G`
 
 ## Customize
 
