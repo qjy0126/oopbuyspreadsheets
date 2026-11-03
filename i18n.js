@@ -18,7 +18,7 @@ const STRINGS = {
     currency: "Currency",
     hero_title: "Premium finds & coupons for your next haul",
     hero_sub:
-      "Browse curated links and join monthly giveaways — built for oopbuyspreadsheets.me.",
+      "Browse curated links and join monthly giveaways — built for oopbuyspreadsheeets.me.",
     cta_signup: "Sign up for OopBuy & get coupons",
     cta_explore: "Explore the spreadsheet",
     curated_catalog: "Curated catalog",
@@ -61,7 +61,7 @@ const STRINGS = {
     faq_a4:
       "Open the spreadsheet, filter by category, review the listing and QC photos, then place your order through your preferred agent.",
     how_to_buy: "How to buy",
-    footer_blurb: "Independent haul research hub for oopbuyspreadsheets.me",
+    footer_blurb: "Independent haul research hub for oopbuyspreadsheeets.me",
     footer_copy: "OopBuySpreadsheets. Independent of Weidian, Taobao, 1688, and Temu.",
     all_products: "All Products",
     all_product: "ALL PRODUCT",
@@ -104,7 +104,7 @@ const STRINGS = {
     currency: "Währung",
     hero_title: "Premium-Funde & Coupons für deinen nächsten Haul",
     hero_sub:
-      "Durchsuche kuratierte Links und nimm an monatlichen Giveaways teil — für oopbuyspreadsheets.me.",
+      "Durchsuche kuratierte Links und nimm an monatlichen Giveaways teil — für oopbuyspreadsheeets.me.",
     cta_signup: "Bei OopBuy anmelden & Coupons holen",
     cta_explore: "Spreadsheet entdecken",
     curated_catalog: "Kuratierter Katalog",
@@ -147,7 +147,7 @@ const STRINGS = {
     faq_a4:
       "Öffne das Spreadsheet, filtere nach Kategorie, prüfe Listing und QC-Fotos und bestelle dann über deinen bevorzugten Agenten.",
     how_to_buy: "Kaufhilfe",
-    footer_blurb: "Unabhängiger Haul-Recherche-Hub für oopbuyspreadsheets.me",
+    footer_blurb: "Unabhängiger Haul-Recherche-Hub für oopbuyspreadsheeets.me",
     footer_copy: "OopBuySpreadsheets. Unabhängig von Weidian, Taobao, 1688 und Temu.",
     all_products: "Alle Produkte",
     all_product: "ALLE PRODUKTE",

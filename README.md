@@ -1,6 +1,6 @@
 # OopBuySpreadsheets
 
-Static site for **oopbuyspreadsheets.me** — inspired by [oopbuyspreads.com](https://oopbuyspreads.com/) with a stronger brand-first layout.
+Static site for **oopbuyspreadsheeets.me** — inspired by [oopbuyspreads.com](https://oopbuyspreads.com/) with a stronger brand-first layout.
 
 ## Pages
 
