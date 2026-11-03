@@ -8,6 +8,7 @@ Static site for **oopbuyspreadsheets.me** — inspired by [oopbuyspreads.com](ht
 - `spreadsheet.html` — category bar, search, product grid, pagination
 - `product.html` — product detail
 - `dead-links.html` — broken link reports
+- `sitemap-index.xml` / `robots.txt` — SEO sitemap (regenerate with `python3 scripts/build_sitemap.py`)
 
 ## Local preview
 

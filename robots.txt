@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+Disallow: /*?q=
+Disallow: /*?page=
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://oopbuyspreadsheets.me/sitemap-index.xml
