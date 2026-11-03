@@ -13,4 +13,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://oopbuyspreadsheeets.me/sitemap-index.xml
+Sitemap: https://oopbuyspreadsheeets.com/sitemap-index.xml

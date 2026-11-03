@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Regenerate sitemap XML for oopbuyspreadsheeets.me from catalog.js."""
+"""Regenerate sitemap XML for oopbuyspreadsheeets.com from catalog.js."""
 from pathlib import Path
 import re
 from datetime import date
 from xml.sax.saxutils import escape
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE = "https://oopbuyspreadsheeets.me"
+BASE = "https://oopbuyspreadsheeets.com"
 TODAY = date.today().isoformat()
 CHUNK = 500
 
